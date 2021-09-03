@@ -295,7 +295,7 @@ contract FaceDotPng is Attributes, ERC721, Ownable {
     }
 
     function preMint() private returns (uint256) {
-        require(msg.sender == tx.origin, "fuck 3074");
+        require(msg.sender == tx.origin, "EOAs only"); // fuck 3074
         require(msg.value >= price, "not enough");
         price = (price * 1082) / 1000;
         return roll();
