@@ -260,9 +260,7 @@ contract FaceDotPng is Attributes, ERC721, Ownable {
 
         bytes memory name = abi.encodePacked(
             RENDERER.eyeName(face.faceLeftEye()),
-            " ",
             RENDERER.noseName(face.faceNose()),
-            " ",
             RENDERER.eyeName(face.faceRightEye()),
             ".png"
         );

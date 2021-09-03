@@ -637,7 +637,7 @@ contract Render {
         } else if (5 == index) {
             return "<";
         } else if (6 == index) {
-            return "Crying";
+            return "\u0ca5";
         } else {
             assert(true);
             return new string(0); // Unreachable?
@@ -667,7 +667,7 @@ contract Render {
         } else if (1 == index) {
             return ".";
         } else if (2 == index) {
-            return "Cat";
+            return "\u03c9";
         } else {
             assert(true);
             return new string(0); // Unreachable?
