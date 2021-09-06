@@ -1,0 +1,4 @@
+[submodule "contracts/openzeppelin"]
+	path = contracts/openzeppelin
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts.git
+	branch = release-v4.3
